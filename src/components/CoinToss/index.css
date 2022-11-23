@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.white-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-top: 6px solid red;
+  border-bottom: 6px solid green;
+}
+.toss-icon {
+  height: 150px;
+}
+.readings-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 40px;
+}
+.para-reading {
+  padding: 10px;
+}
+.button-style {
+  background-color: #f9d423;
+  border: 0px none transparent;
+
+  color: #a35200;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
