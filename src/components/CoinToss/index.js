@@ -15,14 +15,14 @@ export default class CoinToss extends Component {
     this.onGenerateRandom = () => {
       const tossResult = Math.floor(Math.random() * 2)
 
-      if (tossResult === 1) {
+      if (tossResult === 0) {
         this.setState({
           imageUrl: 'https://assets.ccbp.in/frontend/react-js/heads-img.png',
         })
         this.setState(prevState => ({heads: prevState.heads + 1}))
         this.setState(prevState => ({total: prevState.total + 1}))
       }
-      if (tossResult === 0) {
+      if (tossResult === 1) {
         this.setState({
           imageUrl: 'https://assets.ccbp.in/frontend/react-js/tails-img.png',
         })
